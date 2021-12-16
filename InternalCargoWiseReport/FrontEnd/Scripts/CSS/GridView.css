@@ -1,0 +1,40 @@
+﻿.grid td, .grid th {
+    text-align: center;
+    border: 1px solid #77d5f7;
+}
+
+.rounded-corners {
+    border: 1px solid #77d5f7;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.grid table tbody tr td span,
+.grid table tbody tr td a {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #fff;
+    text-decoration: none;
+    background-color: #337ab7;
+    border: 1px solid #337ab7;
+}
+
+.grid table > tbody > tr > td > a {
+    z-index: 3;
+    color: #337ab7;
+    cursor: pointer;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.btn1 {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 8px 25px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
